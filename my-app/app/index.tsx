@@ -1,15 +1,6 @@
-import { Text, View } from "react-native";
+import { Text, View, Image, ScrollView } from "react-native";
+import MainNavigator from "@/components/navigation/MainNavigator";
 
-export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Home PAge</Text>
-    </View>
-  );
+export default function App() {
+  return <MainNavigator />;
 }
